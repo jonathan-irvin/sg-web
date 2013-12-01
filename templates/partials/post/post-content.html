@@ -1,22 +1,22 @@
-<div id="project-title">
+<div id="post-title">
     @title
 </div>
-<div id="project-subtitle">
+<div id="post-subtitle">
 	if @subtitle do
         <p>@subtitle</p>
     endif
         <p>@date</p>
 </div>
-<div id="project-content">
+<div id="post-content">
     @content
 </div>
 if @extrainfo do
-	<div id="project-more-info">
+	<div id="post-more-info">
     	@extrainfo
     </div>
 endif
 if @tags do
-    <div id="project-tags">
+    <div id="post-tags">
         &ndash; @tags
     </div>
 endif
