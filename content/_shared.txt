@@ -1,6 +1,6 @@
-name: your name
+name: Jonathan Irvin
 -
-profession: Project's Page
+profession: Stuff and Things
 -
 email: 
-<hi@yourdomain.com>
+<djfoxyslpr@gmail.com>
