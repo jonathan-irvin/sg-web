@@ -1,4 +1,6 @@
-title: Little Bit 'Bout Me
+title: About
 -
 content: 
 I love computers. I grew up with them. When I was in grade school, I programmed batch files on an old HP 486 for fun. Now, I'm a professional web developer and system administrator. I enjoy bringing small businesses into the Internet and giving the small business owner the tools they need to modernize their business and put them on the Information Superhighway.
+<br>
+This site is a collection of my work, my musings, and my photography.
