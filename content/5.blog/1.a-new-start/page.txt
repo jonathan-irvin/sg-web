@@ -3,6 +3,4 @@ title: A New Start
 Date: Dec 1, 2013
 -
 content:
-I decided to start my site from scratch using stacey app and I have no idea how long I will keep it like this.  One of the benefits of this site is that it is strictly flat-file based and does not require a MySQL database to run.
-<br>
-I figured I would use this for my photography as well.  I don't really care if people check out my site or not, but I wanted this site to be about me, stuff I'm working on, my thoughts, etc.
+I decided to start my site from scratch using stacey app and I have no idea how long I will keep it like this.  One of the benefits of this site is that it is strictly flat-file based and does not require a MySQL database to run.  I figured I would use this for my photography as well.  I don't really care if people check out my site or not, but I wanted this site to be about me, stuff I'm working on, my thoughts, etc.
