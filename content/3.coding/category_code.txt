@@ -1,3 +1,0 @@
-title: Coding
--
-page_description:I love to program, here is some of the things I've programmed.
