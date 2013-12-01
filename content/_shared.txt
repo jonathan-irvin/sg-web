@@ -1,6 +1,6 @@
-name: Ñame
+name: Jonathan Irvin
 -
-profession: Gräphic Designer
+profession: Web Design & Developer/ Photographer
 -
 email: 
-<hi@yourdomain.com>
+<jonathan.w.irvin@gmail.com>
