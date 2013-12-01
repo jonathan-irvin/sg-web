@@ -1,8 +1,8 @@
-title: Contact details
+title: Contact
 -
 content:
 I always try and make myself available for contact.
-
-Email: <jonathan.w.irvin@gmail.com>.
-Facebook: <http://facebook.com/jonathan.w.irvin>.
-Twitter: <http://twitter.com/sublimegeek>.
+<br>
+<br>Email: <jonathan.w.irvin@gmail.com>.
+<br>Facebook: <http://facebook.com/jonathan.w.irvin>.
+<br>Twitter: <http://twitter.com/sublimegeek>.
