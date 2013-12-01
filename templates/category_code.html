@@ -9,9 +9,8 @@
     <link href="@root_path/public/docs/css/main.css" rel="stylesheet" media="screen">
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
     if @tags do
-    	<meta name="keywords" content="@tags"/>
+    	<meta name="keywords" content="@tags">
     endif
-
     if @smallcontent do
     	<meta name="description" content="@smallcontent"/>
     endif
@@ -43,10 +42,10 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-4" id="page-desc">
-          :index-description
+          @page_description
         </div>
         <div class="col-lg-7 col-lg-offset-1">
-          :index-project-list
+          :code-list
         </div>
       </div>
       <hr>

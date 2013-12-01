@@ -1,6 +1,6 @@
-name: Jonathan Irvin
+name: your name
 -
-profession: Web Design & Developer/ Photographer
+profession: Project's Page
 -
 email: 
-<jonathan.w.irvin@gmail.com>
+<hi@yourdomain.com>

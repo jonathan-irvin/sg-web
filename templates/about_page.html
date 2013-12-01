@@ -5,13 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
     <link href="@root_path/public/docs/css/bootstrap.min.css" rel="stylesheet" media="screen">
-    <link href="@root_path/public/docs/css/index.css" rel="stylesheet" media="screen">
     <link href="@root_path/public/docs/css/main.css" rel="stylesheet" media="screen">
+    <link href="@root_path/public/docs/css/about.css" rel="stylesheet" media="screen">
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
     if @tags do
-    	<meta name="keywords" content="@tags"/>
+    	<meta name="keywords" content="@tags">
     endif
-
     if @smallcontent do
     	<meta name="description" content="@smallcontent"/>
     endif
@@ -43,10 +42,12 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-4" id="page-desc">
-          :index-description
+          :about-info
         </div>
         <div class="col-lg-7 col-lg-offset-1">
-          :index-project-list
+          <div id="about-me-description">
+            @content
+          </div>
         </div>
       </div>
       <hr>
