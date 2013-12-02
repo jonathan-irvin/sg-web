@@ -1,6 +1,0 @@
-name: Jonathan Irvin
--
-profession: Stuff and Things
--
-email: 
-<djfoxyslpr@gmail.com>

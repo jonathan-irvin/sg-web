@@ -1,33 +1,51 @@
+# Kirby .htaccess
+
+# rewrite rules
+<IfModule mod_rewrite.c>
+
+# enable awesome urls. i.e.: 
+# http://yourdomain.com/about-us/team
 RewriteEngine on
 
-# Some hosts require a rewritebase rule, if so, uncomment the RewriteBase line below. If you are running from a subdirectory, your rewritebase should match the name of the path to where stacey is stored.
-# ie. if in a folder named 'stacey', RewriteBase /stacey
-#RewriteBase /
+# make sure to set the RewriteBase correctly
+# if you are running the site in a subfolder.
+# Otherwise links or the entire site will break.
+# 
+# If your homepage is http://yourdomain.com/mysite
+# Set the RewriteBase to:
+# 
+# RewriteBase /mysite
+# 
+RewriteBase /
 
-ErrorDocument 404 /404.html
+# block text files in the content folder from being accessed directly
+RewriteRule ^content/(.*)\.(txt|md|mdown)$ error [R=301,L]
 
-# Rewrite any calls to *.html, *.json, *.xml, *.atom, *.rss, *.rdf or *.txt if a folder matching * exists
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_URI} !public/
-RewriteCond %{DOCUMENT_ROOT}/public/$1.$2 !-f
-RewriteRule (.+)\.(html|json|xml|atom|rss|rdf|txt)$ $1/ [L]
+# block all files in the site folder from being accessed directly
+RewriteRule ^site/(.*) error [R=301,L]
 
-# Add a trailing slash to directories
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_URI} !(\.)
-RewriteCond %{REQUEST_URI} !(.*)/$
-RewriteRule ([^/]+)$ $1/ [L]
+# block all files in the kirby folder from being accessed directly
+RewriteRule ^kirby/(.*) error [R=301,L]
 
-# Rewrite any calls to /* or /app to the index.php file
-RewriteCond %{REQUEST_URI} /app/$
-RewriteRule ^app/ index.php [L]
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)/$ index.php?$1 [L]
+# leave robots.txt alone for search engines
+RewriteRule ^robots.txt robots.txt [L]
 
-# Rewrite any file calls to the public directory
+# make panel links work
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_URI} !public/
-RewriteRule ^(.+)$ public/$1 [L]
+RewriteRule ^panel/(.*) panel/index.php [L]
+
+# make site links work
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*) index.php [L]
+ 
+</IfModule>
+
+
+# Additional recommended values
+# Remove comments for those you want to use. 
+# 
+# AddDefaultCharset UTF-8
+#
+# php_flag short_open_tag on 

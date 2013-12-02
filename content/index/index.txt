@@ -1,7 +1,0 @@
-page_description: Jonathan Irvin's little slice of the dubya-dubya-dubya
--
-title: Home
--
-tags: staceycms, staceyapp
--
-smallcontent:A little bit about me and the stuff and things I do.-
