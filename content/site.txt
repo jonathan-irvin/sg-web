@@ -1,9 +1,11 @@
-Title: Stuff and Things
+Title: Slacky - A free theme for Kirby
 ----
-Author: Jonathan Irvin
+Author: Tim Hartmann
 ----
-Description: Because Internets.
+Description: Slacky is a free theme for the awesome CMS Kirby. 
 ----
-Keywords: kirby, cms, kirbycms, php, filesystem
+Keywords: kirby, cms, kirbycms, php, geek-rocket, slacky, freebie, theme
 ----
-Copyright: © (date: Year) (link: http://sublimegeek.com text: Jonathan Irvin)
+Copyright: © 2012 Design & Development by (link: http://geek-rocket.de text: Tim Hartmann)
+----
+

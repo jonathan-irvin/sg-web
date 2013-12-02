@@ -1,3 +1,3 @@
-Title: Error
+Title: Sorry!
 ----
-Text: The page has not been found
+Text: This page is not avaiable.

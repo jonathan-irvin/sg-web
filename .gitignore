@@ -1,4 +1,6 @@
 .DS_Store
-panel/
-site/panel
-docs
+.sass-cache
+node_modules
+thumbs
+npm-debug.log
+kirby
